@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    margin: 20px;
+    background-color: aqua;
+  }
+  
+  h1 {
+    color: #007BFF;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+
+
+   
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+    font-size: medium;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  /* Style specific cells */
+  th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  /* Style even rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
